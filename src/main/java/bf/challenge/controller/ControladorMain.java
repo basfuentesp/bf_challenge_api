@@ -34,9 +34,9 @@ public class ControladorMain {
     private ServicioInicio iniciarApp;
     
     @PostMapping("/iniciar")
-    public ResponseEntity<String> extraerCsv(@RequestBody String jsonFile){
+    public ResponseEntity<String> extraerCsv(){
     	try {
-			iniciarApp.iniciarAplicacion();
+			iniciarApp.beginApp();
 			return new ResponseEntity<>(HttpStatus.OK.name(),HttpStatus.OK);
 		} catch (Exception e) {
 			logs.info(e.getMessage());

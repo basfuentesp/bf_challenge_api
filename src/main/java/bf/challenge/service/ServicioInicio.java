@@ -13,7 +13,7 @@ public class ServicioInicio {
 	@Autowired
 	private ServicioJDBC jdbc;
 	
-	public void iniciarAplicacion() throws SQLException, IOException {
+	public void beginApp() throws SQLException, IOException {
 		try {
 			jdbc.doQuery();
 		} catch (Exception e) {

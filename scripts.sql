@@ -26,7 +26,10 @@ CREATE TABLE challenge.Departments (
 DROP TABLE challenge.Jobs;
 DESC challenge.Jobs;
 insert into challenge.Jobs (job_id, job) values ('200','Programador');
+select * from challenge.Jobs;
 CREATE TABLE challenge.Jobs (
     job_id int not null PRIMARY KEY,
     job varchar(50)
 );
+
+INSERT INTO `challenge`.`Jobs` (`job_id`,`job`) VALUES (1,"ejemplo");
