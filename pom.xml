@@ -78,6 +78,6 @@
 			</plugin>
 		</plugins>
 		
-		<finalName>myapp</finalName>
+		<finalName>challengeApp</finalName>
 	</build>
 </project>
