@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.challenge</groupId>
 	<artifactId>bf_challenge_api</artifactId>
@@ -61,7 +61,7 @@
 		<dependency>
 	        <groupId>com.opencsv</groupId>
 	        <artifactId>opencsv</artifactId>
-	        <version>5.7.1</version> <!-- Verifica si hay una versión más reciente -->
+	        <version>5.7.1</version>
 	    </dependency>
 	    
 	    <dependency>
