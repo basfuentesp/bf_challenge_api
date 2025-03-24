@@ -10,6 +10,10 @@ public class Jobs {
 		this.jobName = jobName;
 	}
 
+	public Jobs() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getJobId() {
 		return jobId;
 	}

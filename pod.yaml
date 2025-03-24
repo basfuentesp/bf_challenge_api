@@ -1,2 +1,11 @@
 apiVersion: v1
 kind: Pod
+metadata:
+  name: pod-bf-challenge-api
+  namespace: challenge
+spec:
+  containers:
+    - name: pod-bf-challenge-api
+      image: 'challengeapp:v1'
+      ports:
+        - containerPort: 8089

@@ -8,12 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ServicioInicio {
-	private static Logger logs = LoggerFactory.getLogger(ServicioInicio.class);
+public class ServicioSelect {
+	private static Logger logs = LoggerFactory.getLogger(ServicioSelect.class);
+	
 	@Autowired
 	private ServicioJDBC jdbc;
 	
-	public void beginApp() throws SQLException, IOException {
+	public void begin() throws SQLException, IOException {
 		try {
 			jdbc.doQuery();
 		} catch (Exception e) {
