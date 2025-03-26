@@ -11,10 +11,10 @@ COPY challengeApp.jar /challenge/challengeApp.jar
 EXPOSE 8089
 
 #Variable de entorno passBD
-ENV PASSBD=
+ENV PASSBD=cPASSBD
 
 #Comandos que se ejecutan al momento de que la imagen se levanta
 ENTRYPOINT exec java \
     -Dfile.encoding=UTF-8 \
-	-Duser.timezone=America/Santiago \
+    -Duser.timezone=America/Santiago \
     -jar /challenge/challengeApp.jar
