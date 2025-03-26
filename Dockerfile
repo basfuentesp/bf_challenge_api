@@ -11,7 +11,7 @@ COPY challengeApp.jar /challenge/challengeApp.jar
 EXPOSE 8089
 
 #Variable de entorno passBD
-ENV PASSBD=18212118.1
+ENV PASSBD=
 
 #Comandos que se ejecutan al momento de que la imagen se levanta
 ENTRYPOINT exec java \
